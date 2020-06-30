@@ -1,0 +1,238 @@
+@media only screen and (max-width: 768px) {
+    .container-fluid {
+        width: 100%;
+    }
+    .navbar.custom {
+        padding: 10px 0;
+        margin:0;
+    }
+    .navbar.custom .container-fluid .navbar-header .navbar-brand .brand-icon {
+        width:70px;
+        position: absolute;
+        left: 30px;
+        top: 40px;
+    }
+    .navbar.custom .container-fluid .navbar-header .navbar-toggle {
+        right: 35px;
+        top: 0px;
+        border-color: transparent;
+        border-radius: 0;
+    }
+    .navbar.custom .container-fluid .navbar-header .navbar-toggle .icon-bar{
+        background-color: white;
+        height: 2px;
+    }
+    .navbar.custom .container-fluid .navbar-collapse ul.nav{
+        background-color: black;
+        margin-top: 0;
+    }
+    .navbar.custom .container-fluid .navbar-collapse ul.nav li:first-child{
+        padding-top: 10px;
+    }
+    .navbar.custom .container-fluid .navbar-collapse ul.nav li:last-child{
+        padding-bottom: 10px;
+    }
+    .navbar.custom .container-fluid .navbar-collapse ul.nav li{
+        padding-left: 20px;
+    }
+    .navbar.custom .container-fluid .navbar-collapse ul.nav li a {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 12px;
+        letter-spacing: 0;
+        color: white;
+    }
+
+    .slider-text {
+        position: relative;
+        text-align: center;
+    }
+
+    @media only screen and (max-width: 420px) {
+        .slider-text-title {
+            font-size: 12pt;
+            margin-bottom: 10px;
+        }
+        .slider-text-content {
+            color: white;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 8pt;
+            margin-bottom: 10px;
+        }
+    }
+
+    @media only screen and (min-width: 420px) and (max-width: 768px) {
+        .slider-text-title {
+            font-size: 15pt;
+            margin-bottom: 10px;
+        }
+        .slider-text-content {
+            color: white;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 10pt;
+            margin-bottom: 10px;
+        }
+    }
+
+    .btn {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-size: 7pt;
+    }
+    .btn.btn-default.custom {
+        border-radius: 0;
+        padding: 10px 15px;
+        letter-spacing: 2px;
+    }
+    .btn.btn-default.custom:hover {
+        background-color: #10c9c3;
+        border: none;
+    }
+
+    .about-section {
+        padding: 20px 10px;
+    }
+    .about-section h3 {
+        font-size: 15pt;
+        margin-bottom: 15px;
+    }
+    .about-section p {
+        font-size: 10pt;
+        margin-bottom: 20px;
+    }
+    .about-section .signature {
+        width: 150px;
+        margin-bottom: 15px;
+    }
+
+    .skill-section {
+        background-image: url('../assets/skill_section_2.png');
+        background-attachment: inherit;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .skill-section h3 {
+        margin-left: 40px;
+        margin-top: 60px;
+        font-size: 18pt;
+        margin-bottom: 30px;
+    }
+    .skill-section section p {
+        font-size: 8pt;
+        margin-left: 40px;
+    }
+    .skill-section .percentage {
+        margin-left: 40px;
+        width: 50%;
+    }
+    .skill-section section p span {
+        margin-left: 10px !important;
+    }
+    
+    .portofolio-section .count {
+        padding: 40px 40px;
+    }
+    .portofolio-section .count .portofolio-group {
+        padding: 30px 0  30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .portofolio-section .count .portofolio-group span{
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+    .portofolio-section .count .portofolio-group p{
+        font-size: 12pt;
+        text-align: center;
+        margin: 0;
+    }
+    .portofolio-section .count .portofolio-group p.title{
+        font-size: 20pt;
+        text-align: center;
+    }
+    
+    .process-section {
+        padding: 20px 10px;
+    }
+    .process-section h3 {
+        font-size: 15pt;
+        margin-bottom: 10px;
+    }
+    .process-section p {
+        font-size: 10pt;
+        margin-bottom: 20px;
+    }
+    .process-section iframe {
+        width: 80% !important;
+        height: 250px !important;
+        margin-bottom: 30px;
+    }
+    
+    .testimonials-section .carousel .carousel-inner .item .testimonial-items {
+        padding: 20px;
+    }
+    .testimonials-section .carousel .carousel-inner .item .testimonial-items p {
+        font-size: 10pt;
+        margin-bottom: 10px;
+    }
+    .testimonials-section .carousel .carousel-inner .item .testimonial-items label {
+        font-size: 7pt;
+        margin-bottom: 50px;
+    }
+    
+    .partner-section {
+        margin: 30px 0;
+    }
+    .partner-section img {
+        display: block;
+        margin: auto;
+        padding: 10px 0;
+    }
+    
+    .contact-section {
+        padding: 20px 10px;
+        background-color: #f5f5f5;
+    }
+    .contact-section h3 {
+        font-size: 15pt;
+        margin-bottom: 15px;
+    }
+    .contact-section p {
+        font-size: 10pt;
+        margin-bottom: 30px;
+    }
+    .contact-section form {
+        padding: 0;
+        margin-bottom: 30px;
+    }
+    
+    .footer-section {
+        background-color: black;
+        padding: 20px 20px;
+    }
+    .footer-section h3 {
+        font-size: 15pt;
+        margin-bottom: 30px;
+    }
+    .footer-section h5 {
+        font-size: 10pt;
+        line-height: 20px;
+    }
+    .footer-section p {
+        font-size: 10pt;
+        line-height: 10px;
+        margin-top: 10px;
+    }
+    .footer-section ul {
+        margin-top: 20px;
+        padding-left: 0;
+    }
+    .footer-section ul li {
+        list-style: none;
+        margin-bottom: 5px;
+    }
+    .footer-section ul li a {
+        font-size: 10pt;
+    }
+}
